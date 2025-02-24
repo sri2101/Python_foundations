@@ -109,6 +109,47 @@ print((-2 / 4), (2 / 4), (2 // 4), (-2 // 4)) # -0.5 0.5 0 -1
 
 print((2 % -4), (2 % 4), (2 ** 3 ** 2)) # -2 2 512
 
+# (==) - Equality operator, equal to
+var = 0  # Assigning 0 to var
+print(var == 0)
+
+var = 1  # Assigning 1 to var
+print(var == 0)
+
+# (!=) -Inequality operator, not equal to
+var = 0  # Assigning 0 to var
+print(var != 0)
+
+var = 1  # Assigning 1 to var
+print(var != 0)
+
+n = int(input("Enter a number: "))
+print(n >= 100)
+
+
+x = 5
+y = 10
+z = 8
+ 
+print(x > y) #False
+print(y > z) #True
+
+
+x, y, z = 5, 10, 8
+ 
+print(x > z) #False
+print((y - 5) == x) #True
+
+
+x, y, z = 5, 10, 8
+x, y, z = z, y, x
+ 
+print(x > z) #True
+print((y - 5) == x) #False
+
+
+
+
 
 
 
